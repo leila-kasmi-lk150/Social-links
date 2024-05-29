@@ -1,0 +1,64 @@
+:root{
+    --blue1: #E0EAF5;
+    --blue2: #2E77AE;
+    --orange : #FF8E2B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+  }
+body, html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue1);
+}
+.container{
+    padding: 15px;
+    background-color: var(--blue2);
+    border-radius: 15px;
+    max-width: 400px;
+    display: grid;
+}
+.about{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.about .img{
+    border: #2E77AE 2px;
+}
+.about img{
+    border-radius: 100%;
+    width: 30%;
+    height: 30%;
+}
+.about p{
+    margin: 7px;
+}
+.myButton{
+    display: grid; 
+}
+.myButton a{
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+}
+.myButton a i{
+    margin-right: 5px;
+}
+.myButton a:hover{
+    background-color: var(--orange);
+}

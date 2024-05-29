@@ -21,7 +21,7 @@ body, html{
     padding: 15px;
     background-color: var(--blue2);
     border-radius: 15px;
-    max-width: 400px;
+    width: 400px;
     display: grid;
 }
 .about{
@@ -61,4 +61,9 @@ body, html{
 }
 .myButton a:hover{
     background-color: var(--orange);
+}
+@media(max-width:300px){
+    .container{
+    width: 250px;
+}
 }
